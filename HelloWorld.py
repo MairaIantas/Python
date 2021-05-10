@@ -1,6 +1,6 @@
 """
 Hello there
-My name is Maira Iantas and this is my first app in python
+My name is Maira Iantas and this is my first time using python
 I will start this documentation today and I will check in the future the 
 the progress that I've made, let's check it out
 """
@@ -68,3 +68,5 @@ y = "I am learning "
 z =  y + x
 print(z)
 print("-------------------------")
+
+

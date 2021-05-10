@@ -1,4 +1,9 @@
 """
+Hello there
+My name is Maira Iantas and this is my first time using python
+I will start this documentation today and I will check in the future the 
+the progress that I've made, let's check it out
+
 Python has the following data types built-in by default, in these categories:
 
 Text Type:	str
