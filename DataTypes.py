@@ -73,3 +73,32 @@ print(type(example))
 #memoryview
 example = memoryview(bytes(5))        # or memoryview(bytes(5))
 print(type(example))
+
+#String are arrays
+for letter in "Maira":
+    print(letter)
+
+#String Length
+sentence = "I am brazilian"
+print(len(sentence))
+
+#String Check
+sentence = "I believe in GOD"
+print("GOD" in sentence)
+print("god" in sentence)
+
+if "GOD" in sentence:
+    print("Yes, GOD is here")
+
+#String Check NOT
+print("joke" not in sentence)
+
+if "joke" not in sentence:
+    print("There is no Joke, in " + sentence)
+
+# Slicing Strings
+#sentence = "I believe in GOD"
+print(sentence[13:16]) #GOD
+print(sentence[:2]) #I
+print(sentence[2:]) #believe in GOD
+print(sentence[-5:-2])
